@@ -1,0 +1,111 @@
+/* Universal selector */
+*{
+    font-family: 'Courier New';
+}
+/* Element selector */
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
+}
+/* ID selector */
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+}
+/* Class Selector */
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+/* Descendant selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a{
+    color: pink;
+}
+/* Adjacent sibling */
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+/* Child selector -> Direct one level under */
+div > input{
+    background-color: darkgoldenrod;
+}
+/* Attribute slector */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+/* also do input[type] {} */
+
+#myid p{
+    color: green;
+}
+/* or */
+div[id="myid"] p{
+    color: green;
+}
+/* Pseudo class */
+/* Hover */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+/* active */
+button:active{
+    background-color:blueviolet;
+    color:bisque;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+/* Checked */
+/* for radio btn and checkbox */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+/* nth-of-type */
+.post:nth-of-type(2){ 
+    background-color: blanchedalmond;
+}
+/* apply only to 2nd ele wit .post */
+/* .post:nth-of-type(2n){} */
+/* for each even post property will be applied */
+
+/* Pseudo ele */
+/* apply only to first letter */
+h1::first-letter{
+    color: green;
+}
+/* apply to only first line */
+p::first-line{
+    color: magenta;
+}
+/* when we slect the text then property will be applied */
+p::selection{
+    background-color: limegreen;
+}
+/* Cascading */
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: blue;
+}

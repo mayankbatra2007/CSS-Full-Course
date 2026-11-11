@@ -1,0 +1,8 @@
+/* Font-weight */
+h2{
+    font-weight: normal; /*400*/
+}
+/* normal -> 400
+bold -> 700
+bolder -> use in parent relation
+lighter -> use in parent relation*/

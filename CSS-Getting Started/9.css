@@ -1,0 +1,10 @@
+/* Text decoration */
+h1{
+    text-decoration: red underline;
+}
+/* line through
+overline */
+/* wavy , dotted inplace of red */
+a{
+    text-decoration: none;
+}

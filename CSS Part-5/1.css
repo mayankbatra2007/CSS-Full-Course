@@ -1,0 +1,31 @@
+#container{
+    height: 400px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    /* row wise  default*/
+    flex-direction: row;
+    /* direction -> row-reverse, row, column, coulmn-reverse */
+    justify-content: flex-start;
+    /* center, flex-end, felx-start */
+    /* space-between, space-around, space-evenly */
+    flex-wrap: wrap;
+    /* norap->default, now-wrap, wrap-rev */
+    align-items: flex-start;
+    /* cross-axis */
+}
+#red{
+    align-self: flex-end;
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 50px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

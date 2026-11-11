@@ -1,0 +1,12 @@
+/* Named color system */
+h2{
+    color:crimson;
+}
+/* RGB Color system */
+p{
+    color:rgb(0,0,255);
+}
+/* Hexcode colors */
+h3{
+    color: #ff0011;
+}

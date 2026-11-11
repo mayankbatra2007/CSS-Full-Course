@@ -1,0 +1,11 @@
+/* color property */
+h1{
+    color: orange;
+}
+p{
+    color: red;
+    background-color: cornsilk;
+}
+button{
+    color: gold;
+}

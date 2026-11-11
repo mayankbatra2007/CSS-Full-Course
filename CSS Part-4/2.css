@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #4dff00ff;
+    /* transition: ; */
+    /* fade in fade out */
+    /* transition-duration: 1s;
+    transition-delay: 0.5s; */
+    margin-top: 10px;
+    /* to make div in center */
+    margin: 0 auto;
+    transition: margin-top 2s ease-in 0.2s;
+}
+div:hover{
+    /* background-color: black;
+    border-radius: 50%; */
+    margin-top: 400px;
+    background-color: pink
+}

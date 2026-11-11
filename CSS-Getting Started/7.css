@@ -1,0 +1,14 @@
+/* Text properties */
+h1{
+   color:red;
+   text-align: center; /*left/start, right/end, justify*/
+   border: solid black;
+   width: 50%;
+}
+/* text-align: justify in CSS means 
+the text is aligned evenly on both
+the left and right sides. */
+/* It adds extra spaces between words
+ so each line stretches to the same 
+ width (except the last line) */
+ 

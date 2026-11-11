@@ -1,0 +1,44 @@
+/* q2 */
+*{
+    text-align: center;
+}
+/* q1 */
+#mainTopic{
+    color: blue;
+}
+/* q3 */
+h1, h3, h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* q4 */
+p{
+    color: white;
+    background-color: cornflowerblue;
+}
+/* q5 */
+div p{
+    background-color: purple;
+    color: azure;
+}
+/* q6 */
+button:hover{
+    background-color: yellow;
+    color: blue;
+} 
+/* q7 */
+p:nth-of-type(odd){
+    color: yellow;
+}
+/* q8 */
+#mainTopic:first-letter{
+    color: red;
+}
+/* q9 */
+input[type="checkbox"]:checked + label {
+    color: darkgreen;
+    text-decoration: underline;
+}
+/* !important */
+h3{
+    background-color: antiquewhite !important;
+}

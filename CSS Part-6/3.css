@@ -1,0 +1,24 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media(width: 400px){
+    h1{
+        background-color: red;
+    }
+    div{
+        height: 100px;
+        width: 200px;
+        background-color: blue;
+    }
+}
+@media (min-width: 400px){
+    h1{
+        background-color: greenyellow;
+    }
+}
+@media(orientation:landscape){
+    h1{
+        background-color: magenta;
+    }
+}

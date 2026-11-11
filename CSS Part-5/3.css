@@ -1,0 +1,17 @@
+#outer{
+    height: 50px;
+    width: 900px;
+    background-color: #10898d;
+    border: 3px solid #122b2b;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.inner{
+    height: 30px;
+    width: 80px;
+    margin-left: 5px;
+    font-size: 24px;
+    color: #1b4041;
+}

@@ -1,0 +1,15 @@
+/* line-height */
+p{
+    line-height: 2.5;
+}
+/* letter-spacing */
+p{
+    letter-spacing: 1px;
+}
+/* Units */
+h3{
+    font-size: 100px; /*96px = 1inch*/
+} 
+span{
+    font-family:fantasy;
+}
